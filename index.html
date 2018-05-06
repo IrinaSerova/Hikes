@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Hidden San Diego - Free Resource for San Diego's best hiking trails">
+	<meta name="keywords" content="hiking san diego county,Hidden San Diego,trails,san diego hiking adventures,hiking near san diego ca">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Hidden San Diego</title>
+	<!--so all browsers will work with html5 -->
+	<!--[if lt IE 9]>
+        <script src="scripts/html5shiv.js"></script>
+    <![endif]-->
+	<!--enable older versions of IE to understand media queries -->
+	<script src="scripts/respond.js"></script>
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="scripts/search.js"></script>
+
+	<script type="text/javascript" src="scripts/nav.js"></script>
+
+	<script type="text/javascript" src="scripts/map.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC__jIXLZwANXkTvJCVPdCPSinS2nZYYY0&signed_in=true&callback=initMap"></script>
+
+
+
+
+</head>
+
+<body>
+	<div class="container">
+		<!--header -->
+		<header>
+			<a href="index.html" class="logo"><img src="images/Logo_f.svg" alt="Hidden San Diego Logo"></a>
+			<h1>Hidden San Diego</h1>
+			<h2>Hikes Resources</h2>
+			<div id="mainNav">
+				<input type="checkbox" id="toggle" />
+				<label for="toggle">Menu</label>
+
+				<nav class="navigation">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="pages/about.html">About</a></li>
+						<li>
+							<a class="main-item" href="pages/hiking.html">Hiking +</a>
+							<ul class="sub-menu">
+								<li><a href="pages/best_hikes.html">Best Hikes</a></li>
+								<li><a class="main-item" href="pages/places.html">Places +</a>
+									<ul class="sub-menu">
+										<li><a href="pages/gallery.html">Gallery</a></li>
+										<li><a href="pages/other_places.html">Other Places</a></li>
+									</ul>
+								</li>
+								<li><a href="pages/review.html">Reviews</a></li>
+								<li><a href="pages/news.html">News</a></li>
+								<li><a href="pages/tips.html">Tips</a></li>
+							</ul>
+						</li>
+						<li><a class="main-item" href="pages/join_us.html">Join Us +</a>
+							<ul class="sub-menu">
+								<li><a href="pages/gift.html">Take Your Gift</a></li>
+								<li><a href="pages/donation.html">Donation</a></li>
+							</ul>
+						</li>
+						<li><a href="pages/contact.html">Contact</a></li>
+					</ul>
+				</nav>
+
+			</div>
+
+			<div id="mapCanvas"></div>
+
+		</header>
+		<!--main section -->
+		<section>
+			<h5>Hiking Resources</h5>
+			<p class="info">
+				Hidden San Diego is about discovering and presenting interesting locations and places in San Diego. Photos of these places in San Diego are taken by the owner of this web site who invites you to become the member of Hidden San Diego web site and connect with others with the same interest.</p>
+			<div class="clearIt"></div>
+			<div class="boxWrap">
+				<article class="box">
+					<div class="content">
+						<h2>Hiking Tips</h2>
+						<figure class="onLeft">
+							<img src="images/home1.jpg" alt="hiking_tips">
+							<figcaption>hiking tips text</figcaption>
+						</figure>
+						<p>These are some of the most important tips and tricks for a safe and enjoyable hike.</p>
+						<p class="readMore"><a href="pages/tips.html">Read More >></a>
+						</p>
+					</div>
+				</article>
+				<article class="box">
+					<div class="content">
+						<h2>Best Hikes</h2>
+						<figure class="onLeft">
+							<img src="images/home2.jpg" alt="best_hikes">
+							<figcaption>best hikes text</figcaption>
+						</figure>
+						<p>Anza-Borrego; Galeta Meadows; Gost Mountain and Calrsbad Batiquitos lagoon; Calavera lake's cave Volcano and Labirants</p>
+						<p class="readMore"><a href="pages/best_hikes.html">Read More >></a>
+						</p>
+					</div>
+				</article>
+			</div>
+			<div class="clearIt"></div>
+			<div class="boxWrap">
+				<article class="box">
+					<div class="content">
+						<h2>Places</h2>
+						<figure class="onLeft">
+							<img src="images/home3.jpg" alt="places">
+							<figcaption>best hiking places</figcaption>
+						</figure>
+
+						<p>San Diego has some of the best hiking anywhere, and lots of it! Lots of hiking places are listed here. Find information about great places near you.
+						</p>
+						<p class="readMore"><a href="pages/places.html">Read More >></a>
+						</p>
+					</div>
+				</article>
+				<article class="box">
+					<div class="content">
+						<h2>Gallery</h2>
+						<figure class="onLeft">
+							<img src="images/home4.jpg" alt="gallery">
+							<figcaption>Top 5 Adventures of 2016</figcaption>
+						</figure>
+						<p>See gallery of photos of hiking in San Diego from adventurers like you.
+
+						</p>
+						<p class="readMore"><a href="pages/gallery.html">Read More >></a>
+						</p>
+					</div>
+				</article>
+			</div>
+			<div class="clearIt"></div>
+			<!--aside -->
+			<aside>
+				<h3>Stay Connected</h3>
+				<p>Subscribe to our monthly newsletter for useful tips and valuable information</p>
+				<form action="post" method="post" id="contactForm">
+					<fieldset id="getInTouch" title="Get in touch">
+						<legend>Get in touch</legend>
+						<ol>
+							<li>
+								<label for="name">name</label>
+								<input type="text" id="name" name="name" title="Please enter you name" placeholder="Last, First" autofocus required /> <span class="require">*</span>
+							</li>
+							<li>
+								<label for="email">email </label>
+								<input type="email" id="email" title="Please enter your email address" placeholder="name@url.com" required /> <span class="require">*</span>
+							</li>
+						</ol>
+					</fieldset>
+					<button type="submit">Subscribe</button>
+				</form>
+				<!-- Box for Ad - Shahin added  -->
+				<div class="adbox">
+					<h3>Advertisement</h3>
+					<p>Interested in advertising with us?</p>
+					<img src="images/bluehost.png" alt="ad1">
+					<h3>$5.95/mo</h3>
+				</div>
+			</aside>
+			<!-- search-->
+			<div class="search">
+				<gcse:search></gcse:search>
+			</div>
+		</section>
+		<!--footer -->
+		<footer>
+			<p>&copy; 2016 Hidden San Diego</p>
+			<div id="social">
+				<a href="http://twitter.com"><img src="images/icons/webicon-twitter.svg" alt="Twitter"></a>
+				<a href="http://facebook.com"><img src="images/icons/webicon-facebook.svg" alt="Facebook"></a>
+				<a href="http://tumblr.com"><img src="images/icons/webicon-tumblr.svg" alt="Tumbler"></a>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>

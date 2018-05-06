@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Hidden San Diego Free Resource for San Diego's best hiking trails">
+    <meta name="keywords" content="hiking san diego county,Hidden San Diego,trails,san diego hiking adventures,hiking near san diego ca">
+    <title>Reviews - Hidden San Diego</title>
+    <!--so all browsers will work with html5 -->
+    <!--[if lt IE 9]>
+        <script src="scripts/html5shiv.js"></script>
+    <![endif]-->
+    <!--enable older versions of IE to understand media queries -->
+    <script src="scripts/respond.js"></script>
+    <link href="../css/main.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../scripts/search.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <a href="../index.html" class="logo"><img src="../images/Logo_f.svg" alt="Hidden San Diego Logo"></a>
+            <h1>Hidden San Diego</h1>
+            <h2>Hikes Resources</h2>
+            <div id="mainNav">
+                <input type="checkbox" id="toggle" />
+                <label for="toggle">Menu</label>
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../pages/about.html">About</a></li>
+                        <li>
+                            <a class="main-item" href="../pages/hiking.html">Hiking +</a>
+                            <ul class="sub-menu">
+                                <li><a href="../pages/best_hikes.html">Best Hikes</a></li>
+                                <li><a class="main-item" href="../pages/places.html">Places +</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="../pages/gallery.html">Gallery</a></li>
+                                        <li><a href="../pages/other_places.html">Other Places</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="../pages/review.html">Reviews</a></li>
+                                <li><a href="../pages/news.html">News</a></li>
+                                <li><a href="../pages/tips.html">Tips</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="main-item" href="../pages/join_us.html">Join Us +</a>
+                            <ul class="sub-menu">
+                                <li><a href="../pages/gift.html">Take Your Gift</a></li>
+                                <li><a href="../pages/donation.html">Donation</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../pages/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section>
+            <div class="onLeftContent">
+                <h2>Review</h2>
+                <div class="clearIt"></div>
+                <section id="contact">
+                    <div class="top">
+                        <h4>Review Hidden San Diego</h4>
+                        <p> We value your comments and reviews. Please fill out the form below with your review of Hidden San Diego or your comments about any hikes you have visited. </p>
+                    </div>
+                    <!--       <h5> Contact Info</h5>
+                    <p>You can also reach us by email at: info@hiddensandiego.com
+                        <br /> or you can call us at: 1-000-222-3333
+                        <br /> Toll Free Phone Hours: Monday - Friday, 8am - 7pm CST (6am - 5pm PST)</p>  -->
+                    <form>
+                        <fieldset id="comments" title="Comments">
+                            <legend>Review / Comments</legend>
+                            <ul>
+                                <li>
+                                    <!-- stars rating -->
+                                    <div class="groupHeadline">Select your rating</div>
+                                    <div id="ratingsForm" class="stars">
+                                        <input type="radio" name="star" class="star-1" id="star-1" />
+                                        <label class="star-1" for="star-1"></label>
+                                        <input type="radio" name="star" class="star-2" id="star-2" />
+                                        <label class="star-2" for="star-2"></label>
+                                        <input type="radio" name="star" class="star-3" id="star-3" />
+                                        <label class="star-3" for="star-3"></label>
+                                        <input type="radio" name="star" class="star-4" id="star-4" />
+                                        <label class="star-4" for="star-4"></label>
+                                        <input type="radio" name="star" class="star-5" id="star-5" />
+                                        <label class="star-5" for="star-5"></label>
+                                        <span></span>
+                                    </div>
+                                    <!-- end of star rating -->
+                                    <div class="groupHeadline">Review Type</div>
+                                    <ul class="altLabel radioSet">
+                                        <li>
+                                            <input type="radio" value="question" id="questionItem" name="requestType" />
+                                            <label for="questionItem" class="rBtnLabels">Review HSD</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" value="comment" id="commentItem" name="requestType" />
+                                            <label for="commentItem" class="rBtnLabels">Review Hikes</label>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <label for="inquiry"></label>
+                                    <textarea id="inquiry" placeholder="Write a review for us or comments about hikes:"></textarea>
+                                </li>
+                            </ul>
+                        </fieldset>
+                        <button type="submit">Send</button>
+                    </form>
+                </section>
+            </div>
+            <div class="clearIt"></div>
+            <aside class="places">
+                <h3>Stay Connected</h3>
+                <p>Subscribe to our monthly newsletter for useful tips and valuable information</p>
+                <form action="post" method="post" id="contactForm">
+                    <fieldset id="getInTouch" title="Get in touch">
+                        <legend>Get in touch</legend>
+                        <ol>
+                            <li>
+                                <label for="name">name</label>
+                                <input type="text" id="name" name="name" title="Please enter you name" placeholder="Last, First" autofocus required /> <span class="require">*</span>
+                            </li>
+                            <li>
+                                <label for="email">email </label>
+                                <input type="email" id="email" title="Please enter your email address" placeholder="name@url.com" required /> <span class="require">*</span>
+                            </li>
+                        </ol>
+                    </fieldset>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </aside>
+            <div class="search searchTwo">
+                <gcse:search></gcse:search>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2016 Hidden San Diego</p>
+            <div id="social">
+                <a href="http://twitter.com"><img src="../images/icons/webicon-twitter.svg" alt="Twitter"></a>
+                <a href="http://facebook.com"><img src="../images/icons/webicon-facebook.svg" alt="Facebook"></a>
+                <a href="http://tumblr.com"><img src="../images/icons/webicon-tumblr.svg" alt="Tumbler"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
