@@ -737,17 +737,18 @@
 				border: none;
 				outline: none;
 				color: white;
-				padding: 14px 16px;
+				padding: 14px 30px;
 				background-color: inherit;
 				font-family: inherit;
 				margin: 0;
+				width: 8em;
 			}
 			
 			.dropdown-content {
 				display: none;
 				position: absolute;
 				background-color: #f9f9f9;
-				min-width: 160px;
+				min-width: 6.2em;
 				box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 				z-index: 1;
 			}
@@ -758,7 +759,7 @@
 				padding: 12px 16px;
 				text-decoration: none;
 				display: block;
-				text-align: left;
+				width: 6.1em;
 			}
 			
 			.topnav a:hover,
@@ -776,7 +777,7 @@
 				display: block;
 			}
 			
-			@media screen and (max-width: 630px) {
+			@media screen and (max-width: 690px) {
 				.topnav a,
 				.dropdown .dropbtn {
 					display: none;
