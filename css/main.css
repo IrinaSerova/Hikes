@@ -578,8 +578,17 @@
 				.Center img {
 					padding: 0;
 				}
-				figure img {
+				figure img,
+				.Center img,
+				.slides img {
 					padding: 0;
+					border: 1px solid #ddd;
+					/* Gray border */
+					border-radius: 4px;
+					/* Rounded border */
+					padding: 5px;
+					/* Some padding */
+					box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 				}
 				/* social media rules */
 				#social img {
