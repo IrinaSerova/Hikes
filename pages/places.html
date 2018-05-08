@@ -21,42 +21,53 @@
 
 <body>
 	<div class="container">
+		<div class="topnav" id="myTopnav">
+
+			<a href="../index.html" class="active">Home</a>
+
+			<div class="dropdown">
+				<button class="dropbtn"><a href="../pages/about.html">About <i class="fa fa-caret-down"></i></a>
+
+				</button>
+				<div class="dropdown-content">
+					<a href="../pages/news.html">News</a>
+
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn"><a href="../pages/hiking.html">Hiking <i class="fa fa-caret-down"></i></a>
+				</button>
+				<div class="dropdown-content">
+					<a href="../pages/best_hikes.html">Best Hikes</a>
+					<a href="../pages/tips.html">Tips</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn"><a href="../pages/places.html">Places <i class="fa fa-caret-down"></i></a>
+				</button>
+				<div class="dropdown-content">
+					<a href="../pages/gallery.html">Gallery</a>
+					<a href="../pages/other_places.html">Other Places</a>
+					<a href="../pages/review.html">Reviews</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn"><a href="../pages/contact.html">Contact <i class="fa fa-caret-down"></i></a>
+				</button>
+				<div class="dropdown-content">
+					<a href="../pages/join_us.html">Join Us</a>
+					<a href="../pages/gift.html">Take Your Gift</a>
+					<a href="../pages/donation.html">Donation</a>
+				</div>
+			</div>
+
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+
 		<header>
 			<a href="../index.html" class="logo"><img src="../images/Logo_f.svg" alt="Hidden San Diego Logo"></a>
 			<h1>Hidden San Diego</h1>
 			<h2>Hikes Resources</h2>
-			<div id="mainNav">
-				<input type="checkbox" id="toggle" />
-				<label for="toggle">Menu</label>
-				<nav class="navigation">
-					<ul>
-						<li><a href="../index.html">Home</a></li>
-						<li><a href="../pages/about.html">About</a></li>
-						<li>
-							<a class="main-item" href="../pages/hiking.html">Hiking +</a>
-							<ul class="sub-menu">
-								<li><a href="../pages/best_hikes.html">Best Hikes</a></li>
-								<li><a class="main-item" href="../pages/places.html">Places +</a>
-									<ul class="sub-menu">
-										<li><a href="../pages/gallery.html">Gallery</a></li>
-										<li><a href="../pages/other_places.html">Other Places</a></li>
-									</ul>
-								</li>
-								<li><a href="../pages/review.html">Reviews</a></li>
-								<li><a href="../pages/news.html">News</a></li>
-								<li><a href="../pages/tips.html">Tips</a></li>
-							</ul>
-						</li>
-						<li><a class="main-item" href="../pages/join_us.html">Join Us +</a>
-							<ul class="sub-menu">
-								<li><a href="../pages/gift.html">Take Your Gift</a></li>
-								<li><a href="../pages/donation.html">Donation</a></li>
-							</ul>
-						</li>
-						<li><a href="../pages/contact.html">Contact</a></li>
-					</ul>
-				</nav>
-			</div>
 		</header>
 		<section>
 			<h2>Hiking Places</h2>
@@ -97,7 +108,7 @@
 						<ol>
 							<li>
 								<label for="name">name</label>
-								<input type="text" id="name" name="name" title="Please enter you name" placeholder="Last, First" autofocus required /> <span class="require">*</span>
+								<input type="text" id="name" name="name" title="Please enter you name" placeholder="Last, First"  required /> <span class="require">*</span>
 							</li>
 
 							<li>

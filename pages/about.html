@@ -2,120 +2,133 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Hidden San Diego A Free Resource for San Diego's best hiking trails">
-    <meta name="keywords" content="Jane Jones,Hidden San Diego ,hiking san diego county,trails,san diego hiking adventures,hiking near san diego ca">
-    <title>About</title>
-    <!--so all browsers will work with html5 -->
-    <!--[if lt IE 9]>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Hidden San Diego A Free Resource for San Diego's best hiking trails">
+	<meta name="keywords" content="Jane Jones,Hidden San Diego ,hiking san diego county,trails,san diego hiking adventures,hiking near san diego ca">
+	<title>About</title>
+	<!--so all browsers will work with html5 -->
+	<!--[if lt IE 9]>
         <script src="scripts/html5shiv.js"></script>
     <![endif]-->
-    <!--enable older versions of IE to understand media queries -->
-    <script src="scripts/respond.js"></script>
-    <link href="../css/main.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="../scripts/search.js"></script>
-    <script src="../scripts/jquery-3.1.1.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="../scripts/show.js"></script>
+	<!--enable older versions of IE to understand media queries -->
+	<script src="scripts/respond.js"></script>
+	<link href="../css/main.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="../scripts/search.js"></script>
+	<script src="../scripts/jquery-3.1.1.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="../scripts/show.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <a href="../index.html" class="logo"><img src="../images/Logo_f.svg" alt="Hidden San Diego Logo"></a>
-            <h1>Hidden San Diego</h1>
-            <h2>Hikes Resources</h2>
-            <div id="mainNav">
-                <input type="checkbox" id="toggle" />
-                <label for="toggle">Menu</label>
-                <nav class="navigation">
-                    <ul>
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="../pages/about.html">About</a></li>
-                        <li>
-                            <a class="main-item" href="../pages/hiking.html">Hiking +</a>
-                            <ul class="sub-menu">
-                                <li><a href="../pages/best_hikes.html">Best Hikes</a></li>
-                                <li><a class="main-item" href="../pages/places.html">Places +</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="../pages/gallery.html">Gallery</a></li>
-                                        <li><a href="../pages/other_places.html">Other Places</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="../pages/review.html">Reviews</a></li>
-                                <li><a href="../pages/news.html">News</a></li>
-                                <li><a href="../pages/tips.html">Tips</a></li>
-                            </ul>
-                        </li>
-                        <li><a class="main-item" href="../pages/join_us.html">Join Us +</a>
-                            <ul class="sub-menu">
-                                <li><a href="../pages/gift.html">Take Your Gift</a></li>
-                                <li><a href="../pages/donation.html">Donation</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="../pages/contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <section>
-            <div class="onLeftContent">
-                <h2>About Us</h2>
-                <div class="clearIt"></div>
-                <article>
-                    <h4>Jane Jones</h4>
-                    <figure class="Center"><img src="../images/pages/jane.png" alt="jane jones">
-                        <figcaption>Jane Jones</figcaption>
-                    </figure>
-                    <p>Hidden San Diego is a web site created in late 2010 by Jane Jones a creative person who has special interest in hidden places in San Diego.</p>
-                    <p>She is an adventurer and intrigued by the unknown, constantly seeking out to explore new places. </p>
-                    <p>The goal of the web site is to present a place for people who are interested in hiking to connect with each other, as well as providing detail information about hiking places in San Diego. </p>
-                    <p>Hidden San Diego web site is user friendly and responsive on all devices for the user to explore and enjoy.
-                    </p>
-                    <p>
-                        The site offers photos and reviews of hiking places, Hidden San Diego takes pride in presenting the updated information as well as sending monthly e-newsletter to its members. </p>
-                    <!-- show/hide jQuery -->
-                    <a href="#" class="more">Get more info</a><a href="#" class="less">Hide more info</a>
-                    <div id="moreInfo">
-                        <p>Hidden San Diego website is the result of her combined adventurist experiences with her skills and love for photography and her semi-skills for web creation.</p>
-                        <p>She is native San Diegan and loves to share information about these hidden places which she finds and visits with people who have the similar interest. </p>
-                    </div>
-                </article>
-            </div>
-            <div class="clearIt"></div>
-            <aside class="about">
-                <h3>Stay Connected</h3>
-                <p>Subscribe to our monthly newsletter for useful tips and valuable information</p>
-                <form action="post" method="post" id="contactForm">
-                    <fieldset id="getInTouch" title="Get in touch">
-                        <legend>Get in touch</legend>
-                        <ol>
-                            <li>
-                                <label for="name">name</label>
-                                <input type="text" id="name" name="name" title="Please enter you name" placeholder="Last, First" autofocus required /> <span class="require">*</span>
-                            </li>
-                            <li>
-                                <label for="email">email </label>
-                                <input type="email" id="email" title="Please enter your email address" placeholder="name@url.com" required /> <span class="require">*</span>
-                            </li>
-                        </ol>
-                    </fieldset>
-                    <button type="submit">Subscribe</button>
-                </form>
-            </aside>
-            <div class="search searchTwo">
-                <gcse:search></gcse:search>
-            </div>
-        </section>
-        <footer>
-            <p>&copy; 2016 Hidden San Diego</p>
-            <div id="social">
-                <a href="http://twitter.com"><img src="../images/icons/webicon-twitter.svg" alt="Twitter"></a>
-                <a href="http://facebook.com"><img src="../images/icons/webicon-facebook.svg" alt="Facebook"></a>
-                <a href="http://tumblr.com"><img src="../images/icons/webicon-tumblr.svg" alt="Tumbler"></a>
-            </div>
-        </footer>
-    </div>
+	<div class="container">
+		<div class="topnav" id="myTopnav">
+
+			<a href="../index.html" class="active">Home</a>
+
+			<div class="dropdown">
+				<button class="dropbtn"><a href="../pages/about.html">About <i class="fa fa-caret-down"></i></a>
+
+				</button>
+				<div class="dropdown-content">
+					<a href="../pages/news.html">News</a>
+
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn"><a href="../pages/hiking.html">Hiking <i class="fa fa-caret-down"></i></a>
+				</button>
+				<div class="dropdown-content">
+					<a href="../pages/best_hikes.html">Best Hikes</a>
+					<a href="../pages/tips.html">Tips</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn"><a href="../pages/places.html">Places <i class="fa fa-caret-down"></i></a>
+				</button>
+				<div class="dropdown-content">
+					<a href="../pages/gallery.html">Gallery</a>
+					<a href="../pages/other_places.html">Other Places</a>
+					<a href="../pages/review.html">Reviews</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn"><a href="../pages/contact.html">Contact <i class="fa fa-caret-down"></i></a>
+				</button>
+				<div class="dropdown-content">
+					<a href="../pages/join_us.html">Join Us</a>
+					<a href="../pages/gift.html">Take Your Gift</a>
+					<a href="../pages/donation.html">Donation</a>
+				</div>
+			</div>
+
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+
+
+		<header>
+			<a href="../index.html" class="logo"><img src="../images/Logo_f.svg" alt="Hidden San Diego Logo"></a>
+			<h1>Hidden San Diego</h1>
+			<h2>Hikes Resources</h2>
+
+		</header>
+		<section>
+			<div class="onLeftContent">
+				<h2>About Us</h2>
+				<div class="clearIt"></div>
+				<article>
+					<h4>Jane Jones</h4>
+					<figure class="Center"><img src="../images/pages/jane.png" alt="jane jones">
+						<figcaption>Jane Jones</figcaption>
+					</figure>
+					<p>Hidden San Diego is a web site created in late 2010 by Jane Jones a creative person who has special interest in hidden places in San Diego.</p>
+					<p>She is an adventurer and intrigued by the unknown, constantly seeking out to explore new places. </p>
+					<p>The goal of the web site is to present a place for people who are interested in hiking to connect with each other, as well as providing detail information about hiking places in San Diego. </p>
+					<p>Hidden San Diego web site is user friendly and responsive on all devices for the user to explore and enjoy.
+					</p>
+					<p>
+						The site offers photos and reviews of hiking places, Hidden San Diego takes pride in presenting the updated information as well as sending monthly e-newsletter to its members. </p>
+					<!-- show/hide jQuery -->
+					<a href="#" class="more">Get more info</a><a href="#" class="less">Hide more info</a>
+					<div id="moreInfo">
+						<p>Hidden San Diego website is the result of her combined adventurist experiences with her skills and love for photography and her semi-skills for web creation.</p>
+						<p>She is native San Diegan and loves to share information about these hidden places which she finds and visits with people who have the similar interest. </p>
+					</div>
+				</article>
+			</div>
+			<div class="clearIt"></div>
+			<aside class="about">
+				<h3>Stay Connected</h3>
+				<p>Subscribe to our monthly newsletter for useful tips and valuable information</p>
+				<form action="post" method="post" id="contactForm">
+					<fieldset id="getInTouch" title="Get in touch">
+						<legend>Get in touch</legend>
+						<ol>
+							<li>
+								<label for="name">name</label>
+								<input type="text" id="name" name="name" title="Please enter you name" placeholder="Last, First" required /> <span class="require">*</span>
+							</li>
+							<li>
+								<label for="email">email </label>
+								<input type="email" id="email" title="Please enter your email address" placeholder="name@url.com" required /> <span class="require">*</span>
+							</li>
+						</ol>
+					</fieldset>
+					<button type="submit">Subscribe</button>
+				</form>
+			</aside>
+			<div class="search searchTwo">
+				<gcse:search></gcse:search>
+			</div>
+		</section>
+		<footer>
+			<p>&copy; 2016 Hidden San Diego</p>
+			<div id="social">
+				<a href="http://twitter.com"><img src="../images/icons/webicon-twitter.svg" alt="Twitter"></a>
+				<a href="http://facebook.com"><img src="../images/icons/webicon-facebook.svg" alt="Facebook"></a>
+				<a href="http://tumblr.com"><img src="../images/icons/webicon-tumblr.svg" alt="Tumbler"></a>
+			</div>
+		</footer>
+	</div>
 </body>
 
 </html>

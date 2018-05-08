@@ -1,8 +1,8 @@
 var map;
-
-$(document).ready(function () {
-    initMap();
-});
+//
+//$(document).ready(function () {
+//    initMap();
+//});
 
 function initMap() {
     var map;
@@ -74,4 +74,4 @@ function initMap() {
 
 }
 // Load initialize function
-google.maps.event.addDomListener(window, 'load', initMap);
+//google.maps.event.addDomListener(window, 'load', initMap);
