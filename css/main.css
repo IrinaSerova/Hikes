@@ -630,6 +630,10 @@
 					float: left;
 					width: 70%;
 				}
+				.onCenterContent {
+					float: none;
+					width: 100%;
+				}
 				/* 2-columns*/
 				#mainContentTwo,
 				#tipsC {
