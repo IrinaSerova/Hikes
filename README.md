@@ -1,7 +1,7 @@
 # JustHikes
-JustHikes is a student project using ArcGIS tools, including ESRI's StoryMap Applications, and google API's.
+JustHikes is a project for hiking community done using ArcGIS tools, including ESRI's StoryMap Applications, and google API's.
 
-> As a student project I redesigned hiddensandiego website.  I modernized the brand’s website and improved  website’s usability, navigation, and design.  Some maps were created using ArcGIS tools, including ESRI's StoryMap Applications.
+> As a student project I redesigned hiddensandiego website, modernized the brand’s website and improved  website’s usability, navigation, and design.  Some maps were created using ArcGIS tools, including ESRI's StoryMap Applications.
 
 #### This project is published at: [IrinaSerova.github](https://irinaserova.github.io/JustHikes/index.html)
 
